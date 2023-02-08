@@ -14,6 +14,9 @@ export const Reviews = () => {
           <FaQuoteRight />
         </span>
       </div>
+      <h4>{name}</h4>
+      <p>{job}</p>
+      <p>{text}</p>
 
     </section>
   )

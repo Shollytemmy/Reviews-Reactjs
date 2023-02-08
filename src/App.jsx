@@ -11,7 +11,6 @@ function App() {
       <header className="header">
         <h1 className='reviews-text'>our reviews</h1>
       <div className="underline"></div>
-
       </header>
       
     
