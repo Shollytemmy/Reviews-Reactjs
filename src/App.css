@@ -10,14 +10,15 @@
     position: relative;
     width: 150px;
     height: 150px;
-    border-radius: 50%;
-    border-right: 15px solid #49a6e9;
+   
 }
 
 img{
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    border-right: 15px solid #49a6e9;
+    object-fit: cover;
 }
 
 span{
@@ -68,7 +69,52 @@ svg{
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
 }
+.name{
+    margin-bottom: 0.25rem;
+    color: #063251;
+}
 
+.job{
+    
+    color: #49a6e9;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    
+}
+
+.text{
+    margin-bottom: 0.25rem;
+        color: #617d98;
+       padding: 0px 25px;
+}
+
+.btn-wrapper{
+    margin-bottom: 2rem;
+}
+
+
+.btn{
+    outline: none;
+    border: none;
+    /* margin-right: 10px; */
+    cursor: pointer;
+    font-size: 1.25rem;
+    background: transparent;
+    border-color: transparent;
+    margin: 0 0.5rem;
+}
+
+.btn > svg{
+    fill: #49a6e9;
+}
+
+.suprise-btn{
+    border: none;
+    background-color: #49a6e9;
+    padding: 6px 10px;
+    color: #fff;
+    cursor: pointer;
+}
 
 /*
     width: 2.5rem;
